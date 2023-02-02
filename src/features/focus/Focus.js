@@ -15,7 +15,7 @@ export const Focus = ({ addSubject }) => {
     if (tmpItem) {
       addSubject(tmpItem);
     } else {
-      Alert.alert("Info", "Please write something to focus on !");
+      Alert.alert("Info", "Please write something to focus on!");
     }
   };
 
